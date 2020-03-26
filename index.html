@@ -5,31 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Primer proyecto del curso desarrollo web">
     <title>Proyecto 1</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="/">
-        <img src="img/logo.svg" alt="Logotipo de bienes raices">
-    </a>
-    <header>
-        <span>BIENES</span><span>RAICES</span>
-    
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">nosotros</a>
-                </li>
-                <li>
-                    <a href="#">anuncio</a>
-                </li>
-                <li>
-                    <a href="#">blog</a>
-                </li>
-                <li>
-                    <a href="#">contacto</a>
-                </li>
-            </ul>
-        </nav>
-        <h1>Venta de Casas y Depatamentos <br> Exclusivo de Lujo</h1>
+
+    <header class="site-header inicio">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logotipo de bienes raices">
+                </a>
+                <nav class="navegacion">
+                    <ul>
+                        <li>
+                            <a href="#">nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#">anuncio</a>
+                        </li>
+                        <li>
+                            <a href="#">blog</a>
+                        </li>
+                        <li>
+                            <a href="#">contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <h1>Venta de Casas y Depatamentos <br> Exclusivo de Lujo</h1>
+        </div>
+
     </header>
     
     <section>
@@ -42,34 +48,41 @@
         </div>
         
         <div>
-            img src="img/icono2.svg" alt="Icono mejor precio">
-            h3>EL MEJOR PRECIO</h3>
-            p>Beatae culpa deserunt, eveniet, harum, autem quisquam excepturi libero voluptas ratione et maiores sit nesciunt quod dolores? A hic rem impedit incidunt!</p>
+            <img src="img/icono2.svg" alt="Icono mejor precio">
+            <h3>EL MEJOR PRECIO</h3>
+            <p>Beatae culpa deserunt, eveniet, harum, autem quisquam excepturi libero voluptas ratione et maiores sit nesciunt quod dolores? A hic rem impedit incidunt!</p>
         </div>
 
-        <img src="img/i<div>
-            cono3.svg" alt="Icono tiempo">
-            3>
-             deserunt, eveniet, harum, autem quisquam excepturi libero voluptas ratione et maiores sit nesciunt quod dolores? A hic rem impedit incidunt!</p>
+        <div>
+            <img src="img/icono3.svg" alt="Icono tiempo">
+            <h3>CORTO TIEMPO</h3>
+            <p>Beatae culpa deserunt, eveniet, harum, autem quisquam excepturi libero voluptas ratione et maiores sit nesciunt quod dolores? A hic rem impedit incidunt!</p>
         </div>
     </section>
+    
     <main>
         <h2>Casas y departamentos en venta</h2>
     
-        <img src="img/anuncio1.jpg" alt="Anuncio casa en el lago">
-        <h3>Casa de lujo en el lago</h3>
-        <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
-        <a href="#">VER PROPIEDAD</a>
+        <div>
+            <img src="img/anuncio1.jpg" alt="Anuncio casa en el lago">
+            <h3>Casa de lujo en el lago</h3>
+            <p>Casa en el lago con excelente vista, acabados de lujo a un excelente precio</p>
+            <a href="#">VER PROPIEDAD</a>
+        </div>
     
-        <img src="img/anuncio2.jpg" alt="Anuncio casa de lujo">
-        <h3>Casa terminados de lujo</h3>
-        <p>Casa con diseño moderno asi como tecnología inteligente y amueblada</p>
-        <a href="#">VER PROPIEDAD</a>
+        <div>
+            <img src="img/anuncio2.jpg" alt="Anuncio casa de lujo">
+            <h3>Casa terminados de lujo</h3>
+            <p>Casa con diseño moderno asi como tecnología inteligente y amueblada</p>
+            <a href="#">VER PROPIEDAD</a>
+        </div>
     
-        <img src="img/anuncio3.jpg" alt="Anuncio casa de alberca">
-        <h3>Casa con alberca</h3>
-        <p>Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad</p>
-        <a href="#">VER PROPIEDAD</a>
+        <div>
+            <img src="img/anuncio3.jpg" alt="Anuncio casa de alberca">
+            <h3>Casa con alberca</h3>
+            <p>Casa con alberca y acabados de lujo en la ciudad, excelente oportunidad</p>
+            <a href="#">VER PROPIEDAD</a>
+        </div>
     
         <a href="#">VER TODAS</a>
     </main>
@@ -81,23 +94,31 @@
     </section>
 
     <section>
-        <h3>Nuestro blog</h3>
-        <img src="img/blog1.jpg" alt="Entrada de blog">
-        <h4>Terraza en el techo de tu casa</h4>
-        <p>Escrito el: <em>20/10/2019</em> por: <em>Adm</em></p>
-        <p>Consejos para construir la terraza en el techo de tu casa con los mejores materiales y ahorrando dinero.</p>
         
-        <img src="img/blog2.jpg" alt="Entrada de decoración">
-        <h4>Guía para la decoración de tu hogar</h4>
-        <p>Escrito el: <em>20/10/2019</em> por: <em>Adm</em></p>
-        <p>Maximiza el espacio en tu hogar con esta guia, aprende a combinar muchos colores para darle vida a tu espacio.</p>
+        <article>
+            <h3>Nuestro blog</h3>
+            <img src="img/blog1.jpg" alt="Entrada de blog">
+            <h4>Terraza en el techo de tu casa</h4>
+            <p>Escrito el: <em>20/10/2019</em> por: <em>Adm</em></p>
+            <p>Consejos para construir la terraza en el techo de tu casa con los mejores materiales y ahorrando dinero.</p>
+        </article>
+        
+        <article>
+            <img src="img/blog2.jpg" alt="Entrada de decoración">
+            <h4>Guía para la decoración de tu hogar</h4>
+            <p>Escrito el: <em>20/10/2019</em> por: <em>Adm</em></p>
+            <p>Maximiza el espacio en tu hogar con esta guia, aprende a combinar muchos colores para darle vida a tu espacio.</p>
+        </article>
+        
     </section>
 
-    <h3>Testimoniales</h3>
-    <blockquote>El personal se comportó de una excelente forma, muy buena atención y la casa que me ofrecieron cumple con todas mis expectativas</blockquote>
-    <p>- Juan De La Torre</p>
+    <article>
+        <h3>Testimoniales</h3>
+        <blockquote>El personal se comportó de una excelente forma, muy buena atención y la casa que me ofrecieron cumple con todas mis expectativas</blockquote>
+        <p>- Juan De La Torre</p>
+    </article>
 
-    <footer>
+    <footer class="navegacion">
         <ul>
             <li>
                 <a href="#">nosotros</a>
